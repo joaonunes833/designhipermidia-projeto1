@@ -1,0 +1,166 @@
+.flex-container{
+    display:flex;
+    width: 280px; 
+    height: 280px;
+    margin: 5px;
+    background-color: gray;
+}
+
+
+.flex-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+
+}
+
+
+.verde{
+    background-color: green;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+.embaixo{
+    justify-content: center;
+    align-self: flex-end;
+}
+.quatroquatro{
+    align-self: center space-around;
+    justify-self: space-around;
+}
+
+.um{
+    flex-direction: row-reverse;
+}
+.dois{
+    justify-content: center;
+}
+.tres{
+    justify-content: space-around;
+}
+.quatro{
+    justify-content: space-between;
+}
+.cinco{
+    align-items: flex-end;
+}
+.seis{
+    justify-content: center;
+    align-items: center;
+}
+.sete{
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.oito{
+    flex-direction: row-reverse;
+}
+.nove{
+    flex-direction: column;
+}
+.dez{
+    flex-direction: row; 
+}
+.onze{
+    flex-direction: column-reverse;
+}
+.doze{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.treze{
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: row-reverse;
+}
+.catorze{
+    flex-direction: row;
+    justify-content: center;
+}
+.quinze{
+    flex-direction: row;
+    justify-content: center;
+}
+.dezasseis{
+    flex-direction: row;
+    justify-content: center;
+}
+.dezassete{
+    flex-direction: row;
+    justify-content: center;
+}
+.dezoito{
+    flex-direction: row;
+    justify-content: center;
+}
+.dezanove{
+    justify-content: center;
+}
+.vinte{
+    flex-direction: row;
+    justify-content: center;
+}
+.vinteum{
+    flex-direction: row;
+    justify-content: center;
+}
+.vintedois{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.vintetres{
+    flex-direction: row;
+    align-content: flex-start;
+}
+.vintequatro{
+    flex-direction: column;
+    align-content: flex-start space-between;
+    flex-wrap: wrap;
+}
+.vintecinco{
+    flex-direction: row;
+    align-content: flex-start;
+}
+.vinteseis{
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.vintesete{
+    flex-direction: row;
+    align-content: flex-start;
+}
+.vinteoito{
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.vintenove{
+    flex-direction: row;
+    align-content: flex-start;
+}
+.trinta{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.trintaum{
+    flex-direction: row;
+    align-content: flex-start;
+}
+.trintadois{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.comeco{
+    flex-direction: column;
+    justify-self: flex-start;
+}
